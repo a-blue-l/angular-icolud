@@ -129,6 +129,80 @@ div.you{
 #orange{
 	background: url(../image/stylesheet-1.png) no-repeat 0px -381px;
 }
+.othergreen{
+	background: url(../image/packed-5.png) no-repeat -32px -401px;
+	color: #49bf1f;
+}
+.otherblue{
+	background: url(../image/packed-5.png) no-repeat -74px -359px;
+	color: #1badf8;
+}
+.otheryellow{
+	background: url(../image/packed-5.png) no-repeat -136px -199px;
+	color: #e0ac00;
+}
+.otherbrow{
+	background: url(../image/packed-5.png) no-repeat -32px -433px;
+	color: #a2845e;
+}
+.otherpink{
+	background: url(../image/packed-5.png) no-repeat -64px -401px;
+	color: #ff2968;
+}
+.otherorange{
+	background: url(../image/packed-5.png) no-repeat -96px -465px;
+	color: #ff7f00;
+}
+.otpurple{
+	background: url(../image/packed-5.png) no-repeat -64px -465px;
+}
+.otgreen{
+	background: url(../image/packed-5.png) no-repeat -42px -359px;
+}
+.otblue{
+	background: url(../image/packed-5.png) no-repeat -136px -167px;
+}
+.otyellow{
+	background: url(../image/packed-5.png) no-repeat -136px -267px;
+}
+.otbrow{
+	background: url(../image/packed-5.png) no-repeat -96px -433px;
+}
+.otpink{
+	background: url(../image/packed-5.png) no-repeat -128px -401px;
+}
+.otorange{
+	background: url(../image/packed-5.png) no-repeat 0 -433px;
+}
+.clpurple{
+	background: #b14bc9;
+}
+.clgreen{
+	background: #49bf1f;
+}
+.clblue{
+	background: #1badf8;
+}
+.clyellow{
+	background: #e0ac00;
+}
+.clbrow{
+	background: #a2845e;
+}
+.clpink{
+	background: #ff2968;
+}
+.clorange{
+	background: #ff7f00;
+}
+.bei{
+	width: 100%;
+	height: 60px;
+	position: absolute;
+    top:0;
+	left:0;
+	z-index: 2;
+}
 .active {
 	background: #303030;
     height: 44px;
@@ -232,7 +306,6 @@ div.you{
     top: 9px;
     left: 14px;
     z-index: 9;
-    background: url(../image/packed-5.png) no-repeat -136px -267px;
 }
 .down{
 	display: block;
@@ -242,7 +315,6 @@ div.you{
     top: 9px;
     left: 14px;
     z-index: 9;
-    background: url(../image/packed-5.png) no-repeat -96px -465px;
 }
 .in{
 	width: 100%;

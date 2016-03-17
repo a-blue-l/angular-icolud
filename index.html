@@ -43,22 +43,22 @@
             </div>
 			</div>
 		</div>
-		<h1   ng-hide = 'key'>{{shijianliebiao[cindex].name}}<span class='xuanxiang' ng-click = 'value.isDone = !value.isDone'>选项</span></h1>
+		<h1 ng-hide = 'key'>{{shijianliebiao[cindex].name}}<span class='xuanxiang' ng-click = 'value.isDone = !value.isDone'>选项</span></h1>
 		<div class="done-item"  ng-hide = 'key'>已完成:<span>{{countDone()}}</span>项</div>
 		<ul  ng-hide = 'key'>
 			<li ng-repeat="value in shijianliebiao[cindex].items track by $index" ng-show = 'value.isDone' class="part1">
-				<span class="down" ng-click = 'value.isDone = false'></span>	
+				<span ng-click = 'value.isDone = false' class="down other{{shijianliebiao[cindex].color}}"></span>	
 				<div class="in">
 				  <input type = 'text'  ng-model = 'value.title' ng-blur = 'save()'></input>
 				  <span ng-click = 'deleteTodo($index)' class="delet">删除</span>	
 				</div>
 				<span ng-click = 'deleteTodo($index)' class="delet">删除</span>	
 			</li>
-		</ul  ng-hide = 'key'>
+		</ul>
 		<br>
-		<ul class="partlist">
+		<ul ng-hide = 'key' class="partlist">
 			<li ng-repeat="value in shijianliebiao[cindex].items track by $index" ng-hide = 'value.isDone' class='part'>
-				  <span ng-click = 'value.isDone = true' class="up"></span>
+				  <span ng-click = 'value.isDone = true' class="up ot{{shijianliebiao[cindex].color}}"></span>
 				  <input type = 'text' ng-model = 'value.title' ng-blur = 'save()'></input>
 				  <span ng-click = 'deleteTodo($index);save()' class="delet">删除</span>	
 			</li>
